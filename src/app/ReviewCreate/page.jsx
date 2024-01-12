@@ -14,10 +14,9 @@ const ReviewCreate = () => {
   const handleSubmit = (e)=>{
     e.preventDefault();
 
-    // const NewReview = {author, content}
-    const fd = new FormData(e.target);
+    const NewReview = {author, content}
 
-    makeRequest("http://localhost:5023/reviews/admin/", "POST", fd)
+    makeRequest("http://localhost:5023/reviews/admin", "POST", NewReview)
   };
 
   return (
@@ -28,7 +27,7 @@ const ReviewCreate = () => {
         <h1 className="text-center text-2xl font-semibold p-3">
           Lav et review til os
         </h1>
-        {/* {data && ( */}
+        {data && (
 
         <form onSubmit={handleSubmit} className="m-auto w-72 text-center">
           <label htmlFor="revAuthor">Navn</label>
@@ -53,7 +52,7 @@ const ReviewCreate = () => {
             value={content}
           />
         </form>
-        {/* )} */}
+        )}
         <button type="submit" className="w-44 h-8 bg-green-400 rounded-md m-auto">færdig</button>
       </div>
     </div>
