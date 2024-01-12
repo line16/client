@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-      <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 w-full">
+      <nav className="border-gray-200 bg-green-800 w-full">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4 m-auto">
           <div>
             <div>
@@ -36,10 +36,10 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/ReviewAdmin"
                         className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white"
                     >
-                      opgave 3
+                      Review Admin
                     </a>
                   </li>
                 </ul>

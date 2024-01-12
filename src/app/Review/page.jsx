@@ -26,10 +26,7 @@ const review = () => {
   return (
     <div>
       <Navbar />
-
-        <h1>slider</h1>
-
-        <div id="kundeBg" className="slider w-5/6 bg-gray-300 h-auto m-auto p-3 rounded-sm">
+        <div id="kundeBg" className="w-5/6 bg-gray-300 h-auto m-auto p-3 rounded-sm">
             <div>
               <h1 className="font-bold text-center text-2xl m-2 text-white">  Se hvad folk siger om vores service</h1>
             </div>
@@ -43,7 +40,7 @@ const review = () => {
             </div>
 
             <div  className="bg-green-400 w-44 h-10 text-center pt-2 rounded-md shadow-md hover:bg-green-600 m-3">
-                <Link href="#" >lav dit eget review</Link>
+                <Link href="/ReviewCreate" >lav dit eget review</Link>
             </div>
         </div>
    
