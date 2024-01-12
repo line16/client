@@ -24,11 +24,14 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
+                    <a href="/Admin"   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">Ret Viborg haveservice</a>
+                  </li>
+                  <li>
                     <a
-                      href="/ADMIN"
+                      href="/Review"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white"
                     >
-                      opgave 2
+                      Viborg Reviews
                     </a>
                   </li>
                   <li>

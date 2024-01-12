@@ -30,7 +30,7 @@ const Viborg = () => {
       {data && (
         <div className="m-auto w-10/12 bg-gray-300 p-3 ">
           
-            <h1 className="font-bold text-5xl w-3/6 p-3">
+            <h1 className="font-bold text-5xl w-3/6 pl-7 py-4">
               Velkommen til <span className="text-green-500">Viborg Haveservice</span>
             </h1>
             <div className="flex flex-row justify-evenly">
