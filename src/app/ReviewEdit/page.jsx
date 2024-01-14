@@ -4,8 +4,6 @@ import React, { useState, useEffect } from "react";
 import useRequestData from "../../../Hooks/useRequestData";
 import Navbar from "../layout/Navbar";
 import { useParams } from "react-router-dom";
-// icons
-import { TbUserEdit } from "react-icons/tb";
 
 const ReviewEdit = (params) => {
 
