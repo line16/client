@@ -15,16 +15,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+*/
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+html {
+ background-color: white;
+} 
 
 #kundeBg{
   background-image: url(../../public/Billedmateriale/udtalelser-bg.jpg);
@@ -34,4 +29,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+}
+.frontPageContent{
+  white-space: pre-wrap
 }

@@ -34,13 +34,13 @@ const ReviewAdmin = () => {
   };
 
   return (
-    <div>
+    <div className="bg-white h-screen">
       <Navbar />
-      <h1 className="font-bold text-3xl text-center m-4">Admin for Reviews</h1>
+      <h1 className="font-bold text-3xl text-center m-4 text-black">Admin for Reviews</h1>
       {/* ---- */}
       <div className="overflow-x-auto">
         <div className="w-52 bg-gray-200 my-5 mx-auto h-10 text-center p-2 rounded-md shadow-md">
-          <p>
+          <p className="text-black">
             lav et nyt review{" "}
             <Link className="text-2xl float-right" href="/ReviewCreate">
               <RiUserAddFill />

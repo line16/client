@@ -26,18 +26,18 @@ const Viborg = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-white h-screen">
         <Navbar />
       {data && (
-        <div className="m-auto w-10/12 bg-gray-300 p-3 ">
+        <div className="m-auto w-10/12 bg-gray-300 p-3 pt-10">
           
-            <h1 className="font-bold text-5xl w-3/6 pl-7 py-4">
+            <h1 className="font-bold text-5xl w-3/6 pl-7 py-4 text-black">
               Velkommen til <span className="text-green-500">Viborg Haveservice</span>
             </h1>
             <div className="flex flex-row justify-evenly">
               <div className="text-black w-3/6 float-left">
-              <div dangerouslySetInnerHTML={{ __html: data.content }}/>       
-                <div className="bg-green-500 w-44 p-2 rounded-md mt-20 text-white text-center">
+              <div className="frontPageContent" dangerouslySetInnerHTML={{ __html: data.content }}/>       
+                <div className="bg-green-500 w-44 p-2 rounded-md mt-20 text-white text-center font-light">
                   <Link href="/Admin">SE ALLE YDELSER</Link></div>
               </div>
 
@@ -51,8 +51,8 @@ const Viborg = () => {
                       height={250}
                       alt="photo"
                     />
-                    <h3 className="font-semibold p-1">{e.title}</h3>
-                    <p className="w-60 p-1">{e.content}</p>
+                    <h3 className="font-semibold p-1 text-black">{e.title}</h3>
+                    <p className="w-60 p-1 text-black">{e.content}</p>
                   </figure>
                 </div>
              )) }

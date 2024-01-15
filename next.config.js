@@ -7,6 +7,5 @@ const nextConfig = {}
 module.exports =  {
     images:{
         domains:['localhost']
-    },
-    plugins:[require("daisyui")]
+    }
 }

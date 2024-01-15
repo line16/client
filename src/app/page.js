@@ -11,10 +11,11 @@ export default function Home() {
           <Link href="/viborghaveservice"> klik her!</Link>
         </div>
         <div>
-          opgave 2: vejret/open weather API
+          opgave 2: vejret/open weather API - nope -
         </div>
         <div>
-          side 3
+          Ogave 3: newsAPI 
+          <Link href="/News">klik her!</Link>
         </div>
       </div>
       <div>
