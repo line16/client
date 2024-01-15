@@ -10,7 +10,7 @@ export default function Home() {
           opgave 1: Viborghaveservice <br></br>
           <Link className="underline" href="/viborghaveservice">klik her!</Link>
         </div>
-        <div className="bg-blue-200 w-5/12 text-center h-auto m-2 p-2 rounded-md shadow-md font-semibold text-lg">
+        <div className="bg-blue-200 w-5/12 text-center h-auto m-2 p-2 rounded-md shadow-md font-semibold text-lg  hover:bg-blue-400 cursor-pointer">
           opgave 2: open weather API <br></br>
           <Link className="underline" href="/Weather">klik her!</Link>
         </div>
