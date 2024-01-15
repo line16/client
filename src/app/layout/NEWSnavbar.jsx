@@ -3,7 +3,7 @@ import React from "react";
 
 const NEWSNavbar = () => {
   return (
-    <nav className="border-gray-200 bg-blue-300 w-full">
+    <nav className="border-gray-200 bg-red-300 w-full">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4 m-auto">
         <div>
           <div>

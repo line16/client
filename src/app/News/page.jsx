@@ -92,7 +92,7 @@ const NewsHomePage = () => {
               </p>
               <p className="text-gray-600 m-2">{n.description}</p>
 
-              <div className="m-auto text-center bg-blue-200 w-80 rounded-md p-2 mt-4 hover:bg-gray-500">
+              <div className="m-auto text-center bg-red-200 w-80 rounded-md p-2 mt-4 hover:bg-gray-500">
                 <button className="text-black">
                   <Link href={n.url} target="_blank">
                     {" "}
